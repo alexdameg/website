@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerpuff Code</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PROFILE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div id="profile" class="container mt-4">
+        <h1 class="text-center mb-4">Profile Section</h1>    
+        <div class="card mx-auto mb-3" style="width: 300px;">
+            <img src="profile.jpg" class="card-img-top" alt="Profile Image" data-toggle="modal" data-target="#pictureModal">
+            <div class="card-body">
+                <p class="card-text text-center">Christian Mark Rasco.</p>
+            </div>
+        </div>
+
+        <!-- Picture Modal -->
+        <div class="modal fade" id="pictureModal" tabindex="-1" role="dialog" aria-labelledby="pictureModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pictureModalLabel">Profile Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center mb-3">
+                            <img src="profile.jpg" class="img-fluid rounded-circle" alt="Profile Image" style="max-width: 150px;">
+                        </div>
+                        <h3 class="text-center">Christian Mark Rasco</h3>
+                        <p class="text-center text-muted">Web Developer</p>
+                        <hr>
+                        <p class="text-justify">Christian Mark Rasco is a dedicated and skilled web developer with a passion for creating beautiful and functional websites. With a strong background in HTML, CSS, JavaScript, and PHP, Christian has worked on numerous projects, ranging from personal portfolios to complex web applications.</p>
+                        <hr>
+                        <p class="text-center"><strong>Contact Information:</strong></p>
+                        <ul class="list-unstyled text-center">
+                            <li><i class="fas fa-envelope"></i>christianmarkrasco@gmail.com</li>
+                            <li><i class="fas fa-phone"></i>09123456789</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container text-center py-3">
+            <div class="social-icons mb-3">
+                <a href="https://www.facebook.com" class="text-white mr-3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" class="text-white mr-3">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" class="text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            &copy; 2024 MySite. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

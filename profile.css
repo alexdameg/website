@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('z.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+ul.list-unstyled li i {
+    margin-right: 8px;
+}

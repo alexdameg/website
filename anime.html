@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="anime.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Anime List</h1>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#narutoModal">
+                    <div class="anime-image-wrapper">
+                        <img src="naruto.jpg" alt="Naruto" class="anime-image">
+                    </div>
+                    <h2>Naruto</h2>
+                    <p class="anime-description">Naruto Uzumaki, a young ninja with a sealed demon within him, dreams of becoming the strongest ninja and leader of his village.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#aotModal">
+                    <div class="anime-image-wrapper">
+                        <img src="aot.jpg" alt="Attack on Titan" class="anime-image">
+                    </div>
+                    <h2>Attack on Titan</h2>
+                    <p class="anime-description">In a world where humanity resides within enormous walled cities to protect themselves from Titans, colossal humanoid creatures, Eren Yeager joins the fight against them.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#deathNoteModal">
+                    <div class="anime-image-wrapper">
+                        <img src="dn.jpg" alt="Death Note" class="anime-image">
+                    </div>
+                    <h2>Death Note</h2>
+                    <p class="anime-description">Light Yagami finds a supernatural notebook that allows him to kill anyone whose name he writes in it, as he seeks to cleanse the world of crime.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#onePieceModal">
+                    <div class="anime-image-wrapper">
+                        <img src="op.jpg" alt="One Piece" class="anime-image">
+                    </div>
+                    <h2>One Piece</h2>
+                    <p class="anime-description">Monkey D. Luffy sets sail with his crew to find the legendary treasure, One Piece, and become the Pirate King.</p>
+                </div>
+            </div>
+
+            <!-- Add Bleach Anime Item -->
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#bleachModal">
+                    <img src="bleach.jpg" alt="Bleach" class="anime-image">
+                    <h2>Bleach</h2>
+                    <p class="anime-description">Ichigo Kurosaki gains the abilities of a Soul Reaper and is tasked with defending humans from evil spirits and guiding departed souls to the afterlife.</p>
+                </div>
+            </div>
+
+            <!-- Add Jujutsu Kaisen Anime Item -->
+            <div class="col-md-4">
+                <div class="anime-item" data-toggle="modal" data-target="#jujutsuKaisenModal">
+                    <img src="jjk.jpg" alt="Jujutsu Kaisen" class="anime-image">
+                    <h2>Jujutsu Kaisen</h2>
+                    <p class="anime-description">Yuji Itadori joins a secret organization of Jujutsu Sorcerers to combat cursed spirits and save the world from supernatural threats.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Modals for Anime Details -->
+    <div class="modal fade" id="narutoModal" tabindex="-1" role="dialog" aria-labelledby="narutoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="narutoModalLabel">Naruto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="naruto.jpg" alt="Naruto" class="img-fluid rounded mb-3">
+                    <p>Naruto Uzumaki, a young ninja with a sealed demon within him, dreams of becoming the strongest ninja and leader of his village.</p>
+                    <p><strong>Genres:</strong> Action, Adventure, Fantasy</p>
+                    <p><strong>Episodes:</strong> 220, 501</p>
+                    <p><strong>Released:</strong> October 3, 2002</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aotModal" tabindex="-1" role="dialog" aria-labelledby="aotModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aotModalLabel">Attack on Titan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="aot.jpg" alt="Attack on Titan" class="img-fluid rounded mb-3">
+                    <p>In a world where humanity resides within enormous walled cities to protect themselves from Titans, colossal humanoid creatures, Eren Yeager joins the fight against them.</p>
+                    <p><strong>Genres:</strong> Action, Drama, Fantasy</p>
+                    <p><strong>Episodes:</strong> 98</p>
+                    <p><strong>Released:</strong> April 7, 2013</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="deathNoteModal" tabindex="-1" role="dialog" aria-labelledby="deathNoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deathNoteModalLabel">Death Note</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="dn.jpg" alt="Death Note" class="img-fluid rounded mb-3">
+                    <p>Light Yagami finds a supernatural notebook that allows him to kill anyone whose name he writes in it, as he seeks to cleanse the world of crime.</p>
+                    <p><strong>Genres:</strong> Mystery, Psychological, Supernatural</p>
+                    <p><strong>Episodes:</strong> 37</p>
+                    <p><strong>Released:</strong> October 4, 2006</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for One Piece -->
+    <div class="modal fade" id="onePieceModal" tabindex="-1" role="dialog" aria-labelledby="onePieceModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="onePieceModalLabel">One Piece</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="op.jpg" alt="One Piece" class="img-fluid rounded mb-2">
+                    <p>Monkey D. Luffy sets sail with his crew to find the legendary treasure, One Piece, and become the Pirate King.</p>
+                    <p><strong>Genres:</strong>Action, adventure, comedy, and fantasy</p>
+                    <p><strong>Episodes:</strong>1121 (ON GOING)</p>
+                    <p><strong>Released:</strong>October 20, 1999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Bleach -->
+    <div class="modal fade" id="bleachModal" tabindex="-1" role="dialog" aria-labelledby="bleachModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bleachModalLabel">Bleach</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="bleach.jpg" alt="Bleach" class="img-fluid rounded mb-2">
+                    <p>Ichigo Kurosaki gains the abilities of a Soul Reaper and is tasked with defending humans from evil spirits and guiding departed souls to the afterlife.</p>
+                    <p><strong>Genres:</strong>Action, Supernatural, Fantasy, and Adventure</p>
+                    <p><strong>Episodes:</strong>698</p>
+                    <p><strong>Released:</strong>October 2004</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Jujutsu Kaisen -->
+    <div class="modal fade" id="jujutsuKaisenModal" tabindex="-1" role="dialog" aria-labelledby="jujutsuKaisenModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jujutsuKaisenModalLabel">Jujutsu Kaisen</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="jjk.jpg" alt="Jujutsu Kaisen" class="img-fluid rounded mb-2">
+                    <p>Yuji Itadori joins a secret organization of Jujutsu Sorcerers to combat cursed spirits and save the world from supernatural threats.</p>
+                    <p><strong>Genres:</strong>Action, fantasy, and adventure</p>
+                    <p><strong>Episodes:</strong>50 (On Going)</p>
+                    <p><strong>Released:</strong>July 6, 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

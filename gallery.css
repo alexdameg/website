@@ -1,0 +1,104 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('z.jpg');
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background */
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Gallery Image Styling */
+.gallery-img {
+    height: 250px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensures the image covers the element proportionally */
+    width: 100%; /* Ensures all images are the same width */
+    display: block;
+}
+
+/* Image Overlay Styling */
+.overlay {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Modal Styling */
+.modal-dialog {
+    max-width: 100%;
+    margin: 1.75rem auto; /* 1.75rem = 28px (Bootstrap default) */
+}
+
+.modal-content {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 80vh;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
